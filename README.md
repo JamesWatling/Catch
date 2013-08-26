@@ -30,6 +30,6 @@ Run tests with
 ```
 ruby tests.rb 
 ```
-Tests have been manually copied out friend depending on the test case, and converting to the same format as the output of the script
+Tests have been manually copied out for each friend depending on the test case, and converting to the same format as the output of the script
 
 

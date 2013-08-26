@@ -28,8 +28,8 @@ Will run the script using the sample JSON file, and list the 2nd Friend (Countin
 Run tests with 
 
 ```
-ruby tests.rb sample.json
+ruby tests.rb 
 ```
-
+Tests have been manually copied out friend depending on the test case, and converting to the same format as the output of the script
 
 

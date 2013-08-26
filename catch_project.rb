@@ -7,7 +7,7 @@ class CatchProject
 
   def initialize
     #reads in first two arguments, in order of filename then position (if applicable), assuming all results have the same number of friends
-    filename, position, test = ARGV
+    filename, position = ARGV
     #checks if the file exists
     unless File.exist? filename
     	#reaches here if the file does not exist, and notifies user, exits program
@@ -40,7 +40,7 @@ class CatchProject
     	p person['name'] + ' (' + person['email'] + ').  Name of one friend is: ' +  friend['name']
     end
   end
-
 end
+
 c = CatchProject.new
 
